@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">inventory-app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PedriniBike</string>
+    <string name="nav_header_subtitle">Administrador</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesión</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_categories">Caterorías</string>
+    <string name="menu_articles">Artículos</string>
+    <string name="menu_providers">Proveedores</string>
+    <string name="menu_purchases">Compras</string>
+    <string name="menu_customers">Clientes</string>
+    <string name="menu_sales">Ventas</string>
+    <string name="menu_users">Usuarios</string>
+</resources>

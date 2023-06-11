@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.inventory_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.inventory_app.ui.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/nav_articles"
+        android:name="com.example.inventory_app.ui.articles.ArticlesFragment"
+        android:label="@string/menu_articles"
+        tools:layout="@layout/fragment_articles" />
+
+    <!--<fragment
+        android:id="@+id/nav_providers"
+        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_providers"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_purchases"
+        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_purchases"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_customers"
+        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_customers"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_sales"
+        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_sales"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_slideshow" />-->
+</navigation>
