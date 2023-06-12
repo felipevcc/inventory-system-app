@@ -2,6 +2,7 @@ package com.example.inventory_app
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -36,7 +37,25 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_home, R.id.nav_categories, R.id.nav_articles, R.id.nav_providers, R.id.nav_purchases, R.id.nav_customers, R.id.nav_sales, R.id.nav_users), drawerLayout)
+            R.id.nav_home,
+            R.id.nav_categories,
+            R.id.nav_articles,
+            R.id.nav_providers,
+            R.id.nav_purchases,
+            R.id.nav_customers,
+            R.id.nav_sales,
+            R.id.nav_users),
+            drawerLayout)
+
+        // With this conditional you can also check from which view the request comes from
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if (destination.id == R.id.nav_home) {
+                binding.appBarMain.fab.visibility = View.GONE
+            } else {
+                binding.appBarMain.fab.visibility = View.VISIBLE
+            }
+        }
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
