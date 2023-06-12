@@ -23,33 +23,33 @@
         android:label="@string/menu_articles"
         tools:layout="@layout/fragment_articles" />
 
-    <!--<fragment
+    <fragment
         android:id="@+id/nav_providers"
-        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:name="com.example.inventory_app.ui.providers.ProvidersFragment"
         android:label="@string/menu_providers"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_providers" />
 
     <fragment
         android:id="@+id/nav_purchases"
-        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:name="com.example.inventory_app.ui.purchases.PurchasesFragment"
         android:label="@string/menu_purchases"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_purchases" />
 
     <fragment
         android:id="@+id/nav_customers"
-        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:name="com.example.inventory_app.ui.customers.CustomersFragment"
         android:label="@string/menu_customers"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_customers" />
 
     <fragment
         android:id="@+id/nav_sales"
-        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:name="com.example.inventory_app.ui.sales.SalesFragment"
         android:label="@string/menu_sales"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_sales" />
 
     <fragment
         android:id="@+id/nav_users"
-        android:name="com.example.inventory_app.ui.slideshow.SlideshowFragment"
+        android:name="com.example.inventory_app.ui.users.UsersFragment"
         android:label="@string/menu_users"
-        tools:layout="@layout/fragment_slideshow" />-->
+        tools:layout="@layout/fragment_users" />
 </navigation>

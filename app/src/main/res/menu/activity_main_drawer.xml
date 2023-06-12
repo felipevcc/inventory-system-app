@@ -16,25 +16,25 @@
             android:id="@+id/nav_articles"
             android:icon="@drawable/baseline_articles_24"
             android:title="@string/menu_articles" />
-        <!--<item
+        <item
             android:id="@+id/nav_providers"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_providers_24"
             android:title="@string/menu_providers" />
         <item
             android:id="@+id/nav_purchases"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_purchases_24"
             android:title="@string/menu_purchases" />
         <item
             android:id="@+id/nav_customers"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_customers_24"
             android:title="@string/menu_customers" />
         <item
             android:id="@+id/nav_sales"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_sales_24"
             android:title="@string/menu_sales" />
         <item
             android:id="@+id/nav_users"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_users" />-->
+            android:icon="@drawable/baseline_users_24"
+            android:title="@string/menu_users" />
     </group>
 </menu>
